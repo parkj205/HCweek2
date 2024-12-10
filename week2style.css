@@ -1,0 +1,186 @@
+body{
+  background-color: rgb(0, 0, 0);
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+.background {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 100vw; 
+  height: 100vh;
+  background-color: blue; 
+  z-index: -1000;
+}
+
+
+.guy {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  margin-top: 5%;
+  margin-left: 35%;
+  transition: 0.5s ease;
+}
+
+.guy1 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 10px;
+  transition: 0.5s ease;
+}
+
+.guysad {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 10px;
+  opacity: 0%;
+  transition: 0.5s ease;
+}
+
+.guyshirt {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 10px;
+  transition: 0.5s ease;
+  transform: translateX(-200px)
+}
+
+.guypants {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 10px;
+  transition: 0.5s ease;
+  transform: translateX(200px)
+}
+
+.guyshirt:hover{
+  cursor: pointer;
+}
+
+.guypants:hover{
+  cursor: pointer;
+}
+
+.guyshirt:active {
+  cursor:pointer;
+  transform: translateX(0px);
+}
+
+.guypants:active {
+  cursor:pointer;
+  transform: translateX(0px);
+}
+
+
+.spacer{
+  height: 900px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  .column1 {
+    background-color: rgb(228, 255, 0);
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+   
+    
+    height: 2300px;
+    border: auto rgb(0, 0, 0);
+    border-style: solid;
+    border-right: #ffffff;
+  }
+
+  .column2 {
+    background-color:  rgb(228, 255, 0);
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+   
+    
+    height: 2300px;
+    border: auto rgb(0, 0, 0);
+    border-style: solid;
+    border-right: #ffffff;
+  }
+
+  .column3 {
+    background-color:  rgb(228, 255, 0);
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+   
+    
+    height: 2300px;
+    border: auto rgb(0, 0, 0);
+    border-style: solid;
+  }
+  
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .greybox {
+    background-color: rgb(0, 0, 0);
+  }
+  #titletext2 {
+    color: rgb(228, 255, 0);
+    height: 25px;
+  }
+  #textinbox {
+ color:  rgb(228, 255, 0);
+}
+#invis{
+  color:rgb(49, 49, 49); ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box{
+  position: absolute;
+  top: 70%;
+  margin-top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 400px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#week1a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 200px;
+  transition: 0.5s ease;
+}
+
+
+#week1a:hover{
+  cursor:auto;
+  color: rgb(228, 255, 0);
+  margin-left: 100px;
+}
